@@ -1,0 +1,243 @@
+$cr: #A40A0E;
+$tf: arial;
+$ta: center;
+$ng: bold;
+$tdf: normal;
+$bln: 50px;
+$th1: 35px;
+$th2: 25px;
+$th3: 17px;
+$th4: 12px;
+$cn: black;
+$cb: white;
+$dd: right;
+$da: bottom;
+$di: left;
+$nn: none;
+$hvr: hover;
+
+h1, h2, h3, h4, form, td, li, section, div, .Menuprincipal {
+
+	font-family: $tf;
+	text-align: $ta;
+
+}
+
+h2, h4 {
+
+	font-weight: $ng;
+	border-width: $bln;
+}
+
+h3, td, div {
+
+	font-size: $th3;
+	line-height: $th2;
+	font-weight: $tdf;
+}
+
+h2 {
+
+	font-size: $th2;
+	color: $cr;
+}
+
+h4 {
+
+	font-size: $th4;
+}
+
+li{
+
+	font-size: $th3;
+	text-align: $di;
+}
+
+
+iframe {
+
+	border-radius: $bln;
+}
+
+
+.Menuprincipal {
+
+	display: grid;
+
+	grid-template-columns: minmax(auto, 33%) minmax(auto, 33%) minmax(auto, 33%);
+
+	grid-template-rows: 33% 33%;
+
+	grid-column-gap: 70px;
+
+	justify-items: $ta;
+
+	align-items: $ta;
+
+	margin-bottom: 80px;
+
+	a {
+		height: 10px;
+		font-size: 28px;
+		margin: 10px 1px 20px 1px;
+		color: #E8C39E;
+	}
+
+
+.Quienessomos {
+
+	display: grid;
+
+	grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
+
+	grid-template-rows: 33% 33% 33%;
+
+	justify-items: $ta;
+
+	align-items: $ta;
+
+	margin-bottom: 120px;
+
+	margin-top: 120px;
+
+	div {
+
+		margin-top: 20px;
+
+		margin: 10px;
+
+		border: 2px solid red;
+	}
+
+}
+
+
+.Lista_desordenada {
+	
+	display: flex;
+
+	flex-direction: row;
+
+	flex-wrap: wrap;
+
+	justify-content: $ta;
+
+	align-content: space-evenly;
+
+}
+
+
+.videoconservas {
+
+
+	background: radial-gradient(ellipse at center, white, black);
+	border: 5px solid $cn;
+	margin: $th2;
+
+}
+
+
+.lista_ordenada{
+list-style-type: decimal;
+}
+
+
+
+.lista_desordenada{
+	list-style-type: square;
+	border-width: 10px;
+}
+
+
+
+.Nuestrosproductos {
+
+	margin: $th2;
+	display: $nn;
+}
+
+
+.Informacíonde {
+
+	margin: 10px
+}
+
+
+}
+
+#Cierre{
+
+	color: $cb;
+	vertical-align: $da;
+
+}
+
+#Comentarios {
+	float: $dd;
+	background-color: #D7D89E;
+	max-width: auto;
+	border: 5px solid $cn;
+
+}
+
+#Crearcuenta {
+
+	float: $di;
+	max-width: auto;
+	border: 5px solid #151515;
+	background-color: #CEC8C1;
+	margin-right: $th2;
+	margin-top: $bln;
+
+}
+
+.Tomateflota {
+
+	position: absolute;
+	bottom: $bln;
+	right: -700px;
+	transition: transform 0.2s ease-in-out;
+}
+
+
+#Cierre{
+	position: relative;
+	margin-top: 40px;
+	background-color: #151515;
+	color: #ffffff;
+	vertical-align: bottom;
+
+}
+
+#Formumate {
+
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	display: table;
+	margin: auto;
+
+}
+
+
+.form-vertical {
+	
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid black;
+	max-width: 500px;
+	margin: auto;
+
+}
+
+
+.form-group {
+
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}

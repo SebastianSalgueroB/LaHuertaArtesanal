@@ -1,0 +1,129 @@
+@charset "UTF-8";
+h1, h2, h3, h4, form, td, li, section, div, .Menuprincipal {
+  font-family: arial;
+  text-align: center; }
+
+h2, h4 {
+  font-weight: bold;
+  border-width: 50px; }
+
+h3, td, div {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: normal; }
+
+h2 {
+  font-size: 25px;
+  color: #A40A0E; }
+
+h4 {
+  font-size: 12px; }
+
+li {
+  font-size: 17px;
+  text-align: left; }
+
+iframe {
+  border-radius: 50px; }
+
+.Menuprincipal {
+  display: grid;
+  grid-template-columns: minmax(auto, 33%) minmax(auto, 33%) minmax(auto, 33%);
+  grid-template-rows: 33% 33%;
+  grid-column-gap: 70px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 80px; }
+  .Menuprincipal a {
+    height: 10px;
+    font-size: 28px;
+    margin: 10px 1px 20px 1px;
+    color: #E8C39E; }
+  .Menuprincipal .Quienessomos {
+    display: grid;
+    grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
+    grid-template-rows: 33% 33% 33%;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 120px;
+    margin-top: 120px; }
+    .Menuprincipal .Quienessomos div {
+      margin-top: 20px;
+      margin: 10px;
+      border: 2px solid red; }
+  .Menuprincipal .Lista_desordenada {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-evenly; }
+  .Menuprincipal .videoconservas {
+    background: radial-gradient(ellipse at center, white, black);
+    border: 5px solid black;
+    margin: 25px; }
+  .Menuprincipal .lista_ordenada {
+    list-style-type: decimal; }
+  .Menuprincipal .lista_desordenada {
+    list-style-type: square;
+    border-width: 10px; }
+  .Menuprincipal .Nuestrosproductos {
+    margin: 25px;
+    display: none; }
+  .Menuprincipal .Informacíonde {
+    margin: 10px; }
+
+#Cierre {
+  color: white;
+  vertical-align: bottom; }
+
+#Comentarios {
+  float: right;
+  background-color: #D7D89E;
+  max-width: auto;
+  border: 5px solid black; }
+
+#Crearcuenta {
+  float: left;
+  max-width: auto;
+  border: 5px solid #151515;
+  background-color: #CEC8C1;
+  margin-right: 25px;
+  margin-top: 50px; }
+
+.Tomateflota {
+  position: absolute;
+  bottom: 50px;
+  right: -700px;
+  transition: transform 0.2s ease-in-out; }
+
+#Cierre {
+  position: relative;
+  margin-top: 40px;
+  background-color: #151515;
+  color: #ffffff;
+  vertical-align: bottom; }
+
+#Formumate {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: table;
+  margin: auto; }
+
+.form-vertical {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid black;
+  max-width: 500px;
+  margin: auto; }
+
+.form-group {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center; }
+
+/*# sourceMappingURL=Estiloscss.css.map */
