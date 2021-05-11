@@ -52,14 +52,14 @@ header {
 
 .row h2 {
   margin-top: 80px;
-  justify-content: center;
+  justify-items: center;
   align-items: center; }
 
 .Quienessomos {
   display: grid;
   grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
   grid-template-rows: 33% 33% 33%;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
   margin-bottom: 120px; }
 
@@ -97,12 +97,9 @@ header {
   margin: auto; }
 
 .form-group {
-  display: block;
-  margin: auto;
-  max-width: 100%;
+  display: grid;
   align-items: center;
-  text-align: center;
-  justify-content: center; }
+  justify-content: center;}
 
 .Formulario_container textarea {
   align-content: center;
@@ -128,7 +125,7 @@ header {
 
 .Tomateflota {
   position: absolute;
-  bottom: -2450px;
+  bottom: -2950px;
   right: 50px;
   transition: transform 0.2s ease-in-out; }
 
@@ -139,4 +136,4 @@ header {
   color: #ffffff;
   vertical-align: bottom; }
 
-/*# sourceMappingURL=Estiloscss.css.map */
+/*# sourceMappingURL=estiloscss.css.map */
