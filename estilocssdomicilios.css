@@ -1,0 +1,163 @@
+
+@media ( max-width: 768px ){
+
+
+
+
+}
+
+
+
+@media ( min-width: 768px ) and ( max-width: 991px ) {
+
+	p {
+		font-size: 30px
+	}
+
+}
+
+
+
+@media ( min-width: 991px ){
+
+	p {
+		color: black;
+	}
+
+}
+
+
+* {
+
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+
+h1 {
+	color: white;
+
+}
+
+h2 {
+	font-size:25px;
+	font-family: arial;
+	font-weight: bold;
+	color: #A40A0E;
+	border-width: 50px
+}
+
+
+h3{
+	font-size:17px;
+	font-family: arial;
+	font-weight: normal;
+	line-height: 25px
+}
+
+h4{
+	font-size:12px;
+	font-family: arial;
+	font-weight: bold;
+
+}
+
+
+.Header_imagen {
+
+	background-color: black;
+}
+
+
+.Zanahoria {
+	margin: 50px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.card-columns {
+
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+
+
+
+.Listadecompra {
+width: 200px;
+height: 150px;
+
+}
+
+.Formulariodeenvio{
+
+	display: grid;
+	grid-template-rows: 500px;
+	grid-template-columns: 600px 600px;
+	align-items: center;
+	justify-content: center;
+	margin: 50px;
+	border: 3px solid black;
+
+}
+
+.FormularioP1 {
+
+	align-items: center;
+	justify-content: center;
+	display: table;
+	margin: auto;
+
+}
+
+.FormularioP2 {
+
+	align-items: center;
+	justify-content: center;
+	display: table;
+	margin: auto;
+
+}
+
+
+.Boton1 {
+
+	margin: 5px:;
+}
+
+.Boton2 {
+
+	margin: 5px;
+
+}
+
+
+table td {
+
+	text-align: center;
+}
+
+table tr {
+
+	text-align: center;
+}
+
+
+
+footer{
+	margin-top: 30px;
+	background-color: black;
+
+}
+
+footer p{
+
+	color:white;
+}
