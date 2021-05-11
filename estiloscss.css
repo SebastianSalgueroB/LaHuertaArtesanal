@@ -52,14 +52,14 @@ header {
 
 .row h2 {
   margin-top: 80px;
-  justify-items: center;
+  justify-content: center;
   align-items: center; }
 
 .Quienessomos {
   display: grid;
   grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
   grid-template-rows: 33% 33% 33%;
-  justify-items: center;
+  justify-content: center;
   align-items: center;
   margin-bottom: 120px; }
 
