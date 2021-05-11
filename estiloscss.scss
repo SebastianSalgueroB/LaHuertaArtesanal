@@ -174,55 +174,37 @@ header {
 
 
 .form-group {
+  display: grid;
+  align-items: $ta;
+  justify-content: $ta;}
 
-	display: block;
-	margin: auto;
-	max-width: 100%;
-	align-items: $ta;
-	text-align: $ta;
-	justify-content: $ta;
-}
+.Formulario_container textarea {
+  align-content: $ta;
+  display: inline-block;
+  border: 2px solid #151515;
+  margin: auto; }
 
-
-.Formulario_container textarea{
-
-	align-content: $ta;
-	display: inline-block;
-	border: 2px solid #151515;
-	margin: auto;
-}
-
-.Formulario_container input{
-
-	margin-bottom: 40px;
-}
-
+.Formulario_container input {
+  margin-bottom: 40px; }
 
 .Formulario_container {
-	
-	background-color: #D7D89E;
-	max-width: auto;
-	border: 5px solid #151515;
-	margin-top: 20px;
-}
-
-
-
+  background-color: #D7D89E;
+  max-width: auto;
+  border: 5px solid #151515;
+  margin-top: 20px; }
 
 .Formumate {
+  position: relative;
+  align-items: $ta;
+  justify-content: $ta;
+  display: table;
+  margin: auto; }
 
-	position: relative;
-	align-items: $ta;
-	justify-content: $ta;
-	display: table;
-	margin: auto;
-
-}
 
 .Tomateflota {
 
 	position: absolute;
-	bottom: -2450px;
+	bottom: -2950px;
 	right: $bln;
 	transition: transform 0.2s ease-in-out;
 }

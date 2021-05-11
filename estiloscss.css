@@ -99,7 +99,7 @@ header {
 .form-group {
   display: grid;
   align-items: center;
-  justify-content: center;}
+  justify-content: center; }
 
 .Formulario_container textarea {
   align-content: center;
