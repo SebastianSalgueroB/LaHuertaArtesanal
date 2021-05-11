@@ -16,72 +16,92 @@ $di: left;
 $nn: none;
 $hvr: hover;
 
-h1, h2, h3, h4, form, td, li, section, div, .Menuprincipal {
+* {
 
-	font-family: $tf;
 	text-align: $ta;
-
+	justify-content: $ta;
+	align-items: $ta;
 }
 
-h2, h4 {
 
+h2 {
+	font-size:$ta;
+	font-family: $tf;
 	font-weight: $ng;
-	border-width: $bln;
+	color: #A40A0E;
+	border-width: $bln
 }
 
-h3, td, div {
 
-	font-size: $th3;
-	line-height: $th2;
+h3{
+	font-size:17px;
+	font-family: $tf;
+	font-weight: $tdf;
+	line-height: $ta
+}
+
+h4{
+	font-size:12px;
+	font-family: $tf;
+	font-weight: $ng;
+
+}
+
+
+li {
+	font-size:17px;
+	font-family: $tf;
+	font-weight: $ng;
+}
+
+
+div {
+	font-size:14px;
+	font-family: $tf;
+	font-weight: $tdf;
+
+}
+
+
+
+td {
+	font-size:15px;
+	font-family: $tf;
 	font-weight: $tdf;
 }
 
-h2 {
 
-	font-size: $th2;
-	color: $cr;
+
+header {
+
+	background-color: #090B10;
 }
 
-h4 {
+.row {
 
-	font-size: $th4;
+	text-align: $ta !important;
+	justify-content: $ta !important;
+	align-items: $ta !important;
 }
 
-li{
+.Container {
 
-	font-size: $th3;
-	text-align: $di;
+	margin-top: 150px;
+
+	margin-bottom:150px;
+
+	margin-right: 150px;
+
+	margin-left: 150px;;
 }
 
+.row h2 {
 
-iframe {
-
-	border-radius: $bln;
-}
-
-
-.Menuprincipal {
-
-	display: grid;
-
-	grid-template-columns: minmax(auto, 33%) minmax(auto, 33%) minmax(auto, 33%);
-
-	grid-template-rows: 33% 33%;
-
-	grid-column-gap: 70px;
-
+	margin-top: 80px;
 	justify-items: $ta;
-
 	align-items: $ta;
 
-	margin-bottom: 80px;
-
-	a {
-		height: 10px;
-		font-size: 28px;
-		margin: 10px 1px 20px 1px;
-		color: #E8C39E;
-	}
+}
 
 
 .Quienessomos {
@@ -98,133 +118,54 @@ iframe {
 
 	margin-bottom: 120px;
 
-	margin-top: 120px;
-
-	div {
-
-		margin-top: 20px;
-
-		margin: 10px;
-
-		border: 2px solid red;
-	}
-
 }
 
 
-.Lista_desordenada {
-	
-	display: flex;
+.Quinessomos div {
 
-	flex-direction: row;
+	margin-top: 20px;
 
-	flex-wrap: wrap;
+	margin: 10px;
 
-	justify-content: $ta;
-
-	align-content: space-evenly;
-
-}
-
-
-.videoconservas {
-
-
-	background: radial-gradient(ellipse at center, white, black);
-	border: 5px solid $cn;
-	margin: $th2;
-
-}
-
-
-.lista_ordenada{
-list-style-type: decimal;
+	border: 2px solid red;
 }
 
 
 
-.lista_desordenada{
-	list-style-type: square;
-	border-width: 10px;
-}
-
-
-
-.Nuestrosproductos {
-
-	margin: $th2;
-	display: $nn;
-}
-
-
-.Informacíonde {
-
-	margin: 10px
-}
-
-
-}
-
-#Cierre{
-
-	color: $cb;
-	vertical-align: $da;
-
-}
-
-#Comentarios {
-	float: $dd;
-	background-color: #D7D89E;
-	max-width: auto;
-	border: 5px solid $cn;
-
-}
-
-#Crearcuenta {
-
-	float: $di;
-	max-width: auto;
-	border: 5px solid #151515;
-	background-color: #CEC8C1;
-	margin-right: $th2;
-	margin-top: $bln;
-
-}
-
-.Tomateflota {
-
-	position: absolute;
-	bottom: $bln;
-	right: -700px;
-	transition: transform 0.2s ease-in-out;
-}
-
-
-#Cierre{
-	position: relative;
-	margin-top: 40px;
-	background-color: #151515;
-	color: #ffffff;
-	vertical-align: bottom;
-
-}
-
-#Formumate {
-
-	position: relative;
-	align-items: center;
-	justify-content: center;
+.Slide {
+	color:white;
+	font-style: $ng;
 	display: table;
-	margin: auto;
+	margin: 100px auto;
 
 }
+
+
+.Slide img {
+
+	max-width: 540px;
+	max-height: 800px;
+}
+
+.Slide h5{
+	color: white;
+	font-weight: $ng;
+	font-size: 20px;
+}
+
+.Slide p{
+	color: black;
+	font-weight: $ng;
+	font-size: 18px;
+}
+
 
 
 .form-vertical {
 	
-	align-items: center;
-	text-align: center;
-	justify-content: center;
+	align-items: $ta;
+	text-align: $ta;
+	justify-content: $ta;
 	border: 1px solid black;
 	max-width: 500px;
 	margin: auto;
@@ -237,7 +178,63 @@ list-style-type: decimal;
 	display: block;
 	margin: auto;
 	max-width: 100%;
-	align-items: center;
-	text-align: center;
-	justify-content: center;
+	align-items: $ta;
+	text-align: $ta;
+	justify-content: $ta;
 }
+
+
+.Formulario_container textarea{
+
+	align-content: $ta;
+	display: inline-block;
+	border: 2px solid #151515;
+	margin: auto;
+}
+
+.Formulario_container input{
+
+	margin-bottom: 40px;
+}
+
+
+.Formulario_container {
+	
+	background-color: #D7D89E;
+	max-width: auto;
+	border: 5px solid #151515;
+	margin-top: 20px;
+}
+
+
+
+
+.Formumate {
+
+	position: relative;
+	align-items: $ta;
+	justify-content: $ta;
+	display: table;
+	margin: auto;
+
+}
+
+.Tomateflota {
+
+	position: absolute;
+	bottom: -2450px;
+	right: $bln;
+	transition: transform 0.2s ease-in-out;
+}
+
+
+
+#Cierre{
+	position: relative;
+	margin-top: 40px;
+	background-color: #151515;
+	color: #ffffff;
+	vertical-align: bottom;
+
+}
+

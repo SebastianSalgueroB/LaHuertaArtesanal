@@ -225,7 +225,8 @@ header {
 	align-items: center;
 	justify-content: center;
 	display: table;
-	margin: auto;
+	margin left: 100px;
+	margin right: 100px;
 
 }
 
