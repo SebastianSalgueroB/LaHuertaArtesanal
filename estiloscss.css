@@ -3,7 +3,14 @@
   justify-content: center;
   align-items: center; }
 
+h1 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 h2 {
+  margin top: 50px;
+  margin-bottom: 10px;
   font-size: center;
   font-family: arial;
   font-weight: bold;
@@ -11,15 +18,12 @@ h2 {
   border-width: 50px; }
 
 h3 {
+  margin-top: 10px;
   font-size: 17px;
   font-family: arial;
   font-weight: normal;
-  line-height: center; }
+  line-height: center;}
 
-h4 {
-  font-size: 12px;
-  font-family: arial;
-  font-weight: bold; }
 
 li {
   font-size: 17px;
@@ -31,62 +35,51 @@ div {
   font-family: arial;
   font-weight: normal; }
 
-td {
-  font-size: 15px;
-  font-family: arial;
-  font-weight: normal; }
 
 header {
   background-color: #090B10; }
+
+footer {
+
+  margin-top: 20px;
+  margin-bottom: none;
+}
+
+.Menu {
+  margin-bottom: 30px;}
+
+.container-fluid img {
+  margin-top: 20px;
+  margin-bottom: 20px;}
 
 .row {
   text-align: center !important;
   justify-content: center !important;
   align-items: center !important; }
 
-.Container {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  margin-right: 150px;
-  margin-left: 150px; }
+.container {
+  text-align: center;
+}
 
-.row h2 {
-  margin-top: 80px;
-  justify-items: center;
-  align-items: center; }
+.tomateanimado {
 
-.Quienessomos {
+  display: block;
+  margin: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tomateanimado:hover {
+  transform: scale(1.5) rotate(35deg);
+}
+
+/*.Quienessomos {
   display: grid;
   grid-template-columns: minmax(auto, 50%) minmax(auto, 50%);
   grid-template-rows: 33% 33% 33%;
   justify-items: center;
   align-items: center;
   margin-bottom: 120px; }
-
-.Quinessomos div {
-  margin-top: 20px;
-  margin: 10px;
-  border: 2px solid red; }
-
-.Slide {
-  color: white;
-  font-style: bold;
-  display: table;
-  margin: 100px auto; }
-
-.Slide img {
-  max-width: 540px;
-  max-height: 800px; }
-
-.Slide h5 {
-  color: white;
-  font-weight: bold;
-  font-size: 20px; }
-
-.Slide p {
-  color: black;
-  font-weight: bold;
-  font-size: 18px; }
+*/
 
 .form-vertical {
   align-items: center;
@@ -99,7 +92,14 @@ header {
 .form-group {
   display: grid;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  max-width: 400px;
+  max-height: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin:  auto;
+  border: 1px dashed black;
+  font-style: bold; }
 
 .Formulario_container textarea {
   align-content: center;
@@ -117,20 +117,22 @@ header {
   margin-top: 20px; }
 
 .Formumate {
+  margin-top: 30px;
   position: relative;
   align-items: center;
   justify-content: center;
   display: table;
   margin: auto; }
 
-.Tomateflota {
-  position: absolute;
-  bottom: -2950px;
-  right: 50px;
-  transition: transform 0.2s ease-in-out; }
+.formulario {
+  background: linear-gradient(to top, #fcf1db, white)
+}
+
 
 #Cierre {
-  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+
   margin-top: 40px;
   background-color: #151515;
   color: #ffffff;
